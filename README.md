@@ -4,4 +4,4 @@ This repository creates a postgres docker image based on the [official postgres 
 
 This project is only intended for internal use at Wise Home. Use at your own risk.
 
-The corresponding image on Docker Hub can be found here: (insert link in a moment).
+The corresponding image on Docker Hub can be found here: [wisehome/postgres_wisehome](https://hub.docker.com/r/wisehome/postgres_wisehome)
