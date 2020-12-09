@@ -4,5 +4,4 @@
 
 FROM postgres:12
 RUN localedef -i da_DK -c -f UTF-8 -A /usr/share/locale/locale.alias da_DK.UTF-8
-LABEL org.opencontainers.image.description="Postgres with danish locales. Only for internal use at Wise Home. See https://github.com/wise-home/postgres_wisehome for license."
-LABEL org.opencontainers.image.source="https://github.com/wise-home/postgres_wisehome"
+LABEL org.opencontainers.image.source https://github.com/wise-home/postgres_wisehome
